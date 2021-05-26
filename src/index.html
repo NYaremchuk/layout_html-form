@@ -3,8 +3,10 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -13,39 +15,40 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST"
-    onsubmit="onSubmit()">
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
+    >
       <fieldset class="all_frame">
         <legend>Personal information</legend>
         <div class="form-field">
           <label for="surname">Surname:</label>
           <input name="surname:"
-          type="text"
-          id="surname"
-          autocomplete="disabled"
+            type="text"
+            id="surname"
+            autocomplete="disabled"
           >
         </div>
         <div  class="form-field">
           <label for="name">Name:</label>
           <input
-          name="name"
-          type="text"
-          id="name"
-          autocomplete="disables"
-          required
+            name="name"
+            type="text"
+            id="name"
+            autocomplete="disables"
+            required
           >
         </div>
         <div class="form-field">
           <label for="years-old">How old are You?</label>
           <input
-          name="age"
-          type="number"
-          value="12"
-          id="years-old"
-          min="12"
-          max="100"
-          required
+            name="age"
+            type="number"
+            value="12"
+            id="years-old"
+            min="12"
+            max="100"
+            required
           >
         </div>
         <div class="form-field">
@@ -53,9 +56,9 @@
             Full date of birth:
           </label>
           <input
-          name="birth"
-          type="date"
-          id="birth-date"
+            name="birth"
+            type="date"
+            id="birth-date"
           >
         </div>
         <div>
@@ -63,10 +66,10 @@
             I accept the term of the agreement
           </label>
           <input
-          type="checkbox"
-          name="accept"
-          id="term-agreement"
-          required
+            type="checkbox"
+            name="accept"
+            id="term-agreement"
+            required
           >
         </div>
       </fieldset>
@@ -75,22 +78,22 @@
         <div class="form-field">
           <label for="mail">E-mail:</label>
           <input
-          type="email"
-          name="email"
-          id="mail"
-          placeholder="email@example.com"
-          required
+            type="email"
+            name="email"
+            id="mail"
+            placeholder="email@example.com"
+            required
           >
         </div>
         <div>
           <label for="pass">Password:</label>
           <input
-          type="password"
-          name="password"
-          id="pass"
-          minlength="8"
-          maxlength="32"
-          required
+            type="password"
+            name="password"
+            id="pass"
+            minlength="8"
+            maxlength="32"
+            required
           >
         </div>
       </fieldset>
@@ -98,14 +101,14 @@
         <legend>An interesting fact about you!</legend>
         <div class="form-field">Do you love cats?
           <input
-          type="radio"
-          name="love-cat"
-          id="yes"
+            type="radio"
+            name="love-cat"
+            id="yes"
           >Yes
           <input
-          type="radio"
-          name="love-cat"
-          id="no"
+            type="radio"
+            name="love-cat"
+            id="no"
          >No
         </div>
         <div class="form-field">
@@ -113,9 +116,9 @@
             What is your favorite color?
           </label>
           <input
-          type="color"
-          name="color"
-          id="color"
+            type="color"
+            name="color"
+            id="color"
           >
         </div>
         <div class="form-field">
@@ -123,18 +126,20 @@
             What time do you go to bed?
           </label>
           <input
-          type="time"
-          name="time"
-          id="time"
+            type="time"
+            name="time"
+            id="time"
           >
         </div>
         <div class="form-field">
           <label for="car">
             What are your favorite brand of cars?
           </label>
-          <select name="cars"
-          id="car"
-          multiple>
+          <select
+            name="cars"
+            id="car"
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -145,12 +150,12 @@
             How do you rate our work?
           </label>
           <input
-          type="range"
-          name="rate"
-          id="rate"
-          min="0"
-          max="10"
-          value="0"
+            type="range"
+            name="rate"
+            id="rate"
+            min="0"
+            max="10"
+            value="0"
           >
         </div>
       </fieldset>
@@ -161,10 +166,11 @@
             Comments:
           </label>
           <textarea
-          name="comments"
-          id="comment"
-          cols="20"
-          rows="2">
+            name="comments"
+            id="comment"
+            cols="20"
+            rows="2"
+          >
           </textarea>
         </div>
         <div>
@@ -172,9 +178,10 @@
             Would you recommend us?
           </label>
           <select
-          name="reccomend"
-          id="reccomend"
-          required>
+            name="reccomend"
+            id="reccomend"
+            required
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
